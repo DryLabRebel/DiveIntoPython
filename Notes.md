@@ -21,7 +21,7 @@ The sys.path is where python looks for libraries to import via module
     '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages'
     ]
 
-
+colon + indentation = a function block
 
 
 
