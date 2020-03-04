@@ -23,6 +23,11 @@ The sys.path is where python looks for libraries to import via module
 
 colon + indentation = a function block
 
+# #########################
+# #########################
+# Currently up to page 53 #
+# #########################
+# #########################
 
 
 
