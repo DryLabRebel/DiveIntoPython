@@ -114,9 +114,17 @@ Comprehensions
 
 Lots of interesting things you can do with filenames. How useful is it all? I suppose when you start doing real programming you find it more useful.
 
+List comprehensions seem pretty important, but I'm too tired at this point for it to really sink in.
+
+Seems pretty straightforward though too, and he's covering interesting syntax for for loops, if statements and other stuff.
+
+I need to figure out how to export my command history to a text file, so that I can push that to my repo.
+
+
+
 # #########################
 # #########################
-# Currently up to page 94 #
+# Currently up to page 105 #
 # #########################
 # #########################
 
