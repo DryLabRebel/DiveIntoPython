@@ -121,12 +121,54 @@ Seems pretty straightforward though too, and he's covering interesting syntax fo
 I need to figure out how to export my command history to a text file, so that I can push that to my repo.
 
 
+[master df6c818] Up to page 105
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+To https://github.com/DryLabRebel/DiveIntoPython.git
+   b7dffda..df6c818  master -> master
 
-# #########################
-# #########################
-# Currently up to page 105 #
-# #########################
-# #########################
+---
+
+A string is like a tuple of characters.
+
+Very interesting, and different to R. in R, a string is stored into a variable, and the variable calls that string, and takes it as a single value.
+
+in R:
+
+```
+x = "This is 1 String ¡ with some special characters"
+x
+# [1] "This is 1 String ¡ with some special characters"
+length(x)
+# [1] 1
+x[1]
+# [1] "This is 1 String ¡ with some special characters"
+x[3]
+# [1] NA
+```
+
+in python:
+
+```
+x = "This is 1 String ¡ with some special characters"
+x
+# 'This is 1 String ¡ with some special characters'
+length(x)
+# 47
+x[1]
+# 'h'
+x[3]
+# 's'
+```
+
+Compound field names is going a little over my head. It makes sense, but it's a lot to take in, and seems like the kind of thing I'll forget if I don't practise it a lot.
+
+
+
+# ##########################
+# ##########################
+# Currently up to page 119 #
+# ##########################
+# ##########################
 
 Functions
 Modules
