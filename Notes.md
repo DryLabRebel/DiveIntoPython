@@ -6,6 +6,7 @@ Dive Into Python Tutorial
 - 52
 - 92
 - 105
+- 118
 - 126
 - 168
 - 184
@@ -162,11 +163,35 @@ x[3]
 
 Compound field names is going a little over my head. It makes sense, but it's a lot to take in, and seems like the kind of thing I'll forget if I don't practise it a lot.
 
+So the basic idea is strings are extemely versatile, and also they are objects.
 
+You can format values (like say, from a variable) into a string.
+
+In a way, you can do this in bash.
+
+In bash, ['"' double quotes are like switches which turn quoting on and off](https://www.grymoire.com/Unix/Awk.html#uh-4), so you can expand variables inside of quotes, which techinally means turning the quote off, and on again on either side of the varible.
+
+This can however, get extremely complicated, as you can do more than simply replace the field with a variable value, you can index values in a list or something else, and insert that into the field.
+
+```
+si_suffixes = humansize.SUFFIXES[1000]
+'1000{0[0]} = 1{0[1]}'.format(si_suffixes)
+```
+
+It's important to understand that in the field `{0[1]}` the zero represents the first argument to the *function call*, which in this case is `format`. Since there's only one argument, it's simply calling that argument. the 1 in `{0[1]}` is calling the *second* element in the `si_suffixes` list (because the first element is indexed as `0` (zero)... Just in case you forgot.
+
+Format Specifiers - a sophisticated mechanism for micromanaging your strings, definitely keep an eye out for this later.
+
+```
+s.lower().count('f') # This converts all the values in 's' into lowercase, then calls the count function to count the number of 'f's. Very clever.
+
+```
+
+So much to learn and read, how to build knowledge?
 
 # ##########################
 # ##########################
-# Currently up to page 119 #
+# Currently up to page 120 #
 # ##########################
 # ##########################
 
