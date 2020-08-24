@@ -187,6 +187,12 @@ s.lower().count('f') # This converts all the values in 's' into lowercase, then 
 
 ```
 
+Lots of interesting stuff about strings, and using bytes.
+
+Byte arrays are cool. It would probably be useful to have a cheatsheet of ACII codes and hexadecimals for referencing.
+
+
+
 So much to learn and read, how to build knowledge?
 
 # ##########################
