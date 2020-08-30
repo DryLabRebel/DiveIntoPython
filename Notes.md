@@ -80,7 +80,7 @@ A tuple is a list that cannot be changed, once it has been created... kind of li
 
 Technically tuples are immutable. Actually, tuples have no 'methods' which allow you to perform any operation which changes the tuple.
 
-You can observe the tuple, and slice it (because this created a new tuple).
+You can observe the tuple, and slice it (because this creates a new tuple).
 
 You can also perform boolean operations on a tuple.
 
@@ -191,13 +191,31 @@ Lots of interesting stuff about strings, and using bytes.
 
 Byte arrays are cool. It would probably be useful to have a cheatsheet of ACII codes and hexadecimals for referencing.
 
+OK, character encoding would be extremely useful for working with multiple languages, and with special characters or forgeign character sets like chinese symbols.
+
+By default, python 3 assumes your character encoding is in 'utf-8', and in python 2 it assumes your character encoding is in 'ASCII', but you can declare a given character encoding and the beginning of any python script.
+
+```
+#!/usr/bin/python3
+# -*- coding: windows-1252 -*-
+```
+
+Nice, up to chapter 5, making progress.
+
+Regular Expressions
+-------------------
+
+The lesson to be learned from page 130, is that it's best to be as *explicit* as possible when constructing your regex operations. Try to avoid case-dependant regex, or ambiguous regex. Try to eliminate possible exceptions. For example,
+
+Only use `$` when you're interested in 'the end of the line', not when the text your interested in just happens to be on the end of the line. If you're interested in a particualr piece of text, try your best to isolate the piece of text in some way.
+
 
 
 So much to learn and read, how to build knowledge?
 
 # ##########################
 # ##########################
-# Currently up to page 120 #
+# Currently up to page 138 #
 # ##########################
 # ##########################
 
